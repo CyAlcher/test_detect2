@@ -1,0 +1,37 @@
+<annotation>
+	<folder>jpg</folder>
+	<filename>data/frames/spaghetti2/frame_0005.jpg</filename>
+	<source>
+		<database>hulan</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+		<segmented>0</segmented>
+	<object>
+		<name>normal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>144.0</xmin>
+			<ymin>235.0</ymin>
+			<xmax>304.0</xmax>
+			<ymax>277.0</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>normal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133.0</xmin>
+			<ymin>0.0</ymin>
+			<xmax>164.0</xmax>
+			<ymax>29.0</ymax>
+		</bndbox>
+	</object>
+</annotation>

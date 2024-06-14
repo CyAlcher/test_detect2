@@ -1,0 +1,13 @@
+<annotation>
+	<folder>jpg</folder>
+	<filename>data/frames/spaghetti2/frame_0150.jpg</filename>
+	<source>
+		<database>hulan</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+		<segmented>0</segmented>
+</annotation>
