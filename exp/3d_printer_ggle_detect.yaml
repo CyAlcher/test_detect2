@@ -1,0 +1,10 @@
+train: /content/drive/MyDrive/github_cq/test_detect2/exp/datasets/train/images
+val: /content/drive/MyDrive/github_cq/test_detect2/exp/datasets/val/images
+val: /content/drive/MyDrive/github_cq/test_detect2/exp/datasets/test/images
+ 
+# 类别数
+nc: 3
+ 
+# 类别名称
+names: ['normal', 'spaghetti', 'possible-spaghetti']
+# find ./ -name "*.jpg" -type f | wc -l

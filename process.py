@@ -21,7 +21,7 @@ saved_path = r"data/Annotations/train/"
 dataset_dir= 'exp/datasets'    # 目标文件夹
 
 # train
-labelme_path = ["data/frames/spaghetti1/" , "data/frames/clogging1/"]
+labelme_path = ["data/frames/spaghetti2/" , "data/frames/clogging1/"]
 
 data_provider = DataProvider(labelme_path=labelme_path, saved_path=saved_path)
 data_provider.get_img_file()
@@ -38,7 +38,7 @@ data_provider.move_files(os.path.join(dataset_dir, 'train'))
 data_provider.move_files(os.path.join(dataset_dir, 'val'))
 
 # test
-labelme_path = "data/frames/spaghetti2/"
+labelme_path = "data/frames/spaghetti1/"
 
 data_provider = DataProvider(labelme_path=labelme_path, saved_path=saved_path)
 data_provider.get_img_file()
