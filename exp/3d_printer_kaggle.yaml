@@ -1,0 +1,9 @@
+train: datasets/train/images
+val: datasets/val/images
+test: datasets/test/images
+
+# 类别数
+nc: 3
+ 
+# 类别名称
+names: ['normal', 'spaghetti', 'possible-spaghetti']
