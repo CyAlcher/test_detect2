@@ -1,7 +1,6 @@
-train: datasets/train/images
-val: datasets/val/images
-test: datasets/test/images
-
+train: /kaggle/working/test_detect2/exp/datasets/train/images
+val: /kaggle/working/test_detect2/exp/datasets/val/images
+val: /kaggle/working/test_detect2/exp/datasets/test/images
 # 类别数
 nc: 3
  
